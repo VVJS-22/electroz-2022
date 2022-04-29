@@ -2,7 +2,10 @@ export const nonTechItems = [
     {
         id: 'non-tech-01',
         title: 'IPL Auction',
-        desc: 'IPL Auction is an non- Technical Event .The auction is open for 6 franchises,who can bidfor anyplayer they want in their teams.A Team Should have 4 participants. No participants can be part of more than one team. It is not necessary that the participants forming a team should be from the same college.',
+        desc: `IPL Auction is an non- Technical Event .The auction is open for 6 franchises,who can bid for any
+        player they want in their teams. A Team should have 4 participants, minimum 2 participants in team.
+        No participants can be part of more than one team.
+        It is not necessary that the participants forming a team should be from the same college.`,
         cover: '/ipl.jpeg',
         pdf: '/non-tech-ipl.pdf'
     },
@@ -20,7 +23,7 @@ export const nonTechItems = [
         id: 'non-tech-03',
         title: 'Memes Creation',
         desc: `Memes creation is an Non-Technical Event where each participant is required to make
-        a memes about a given topic and then present it in front of the juries. A Team can have maximum of 2 participants.
+        a memes about a given topic and then present it in front of the juries. A Team can have minimum of 2 participants or maximum 4 of participants.
         No participants can be part of more than one team.
         It is not necessary that the participants forming a team should be from the same
         college.`,
@@ -30,8 +33,8 @@ export const nonTechItems = [
     {
         id: 'non-tech-04',
         title: 'Sudoku',
-        desc: `Sudoku is a Non-Technical Event when each participant is required to
-        fill the grids with the help of hints like to crossword. A team can have up to 2 to 4 participants.
+        desc: `Sudoku is a Non-Technical Event where each participant is required to
+        fill the grids with the help of hints [like crossword]. A team can have up to 2 to 4 participants.
         No more participants can be part of more than one team.
         Once registered that the participants forming a team should be from
         the same college.`,
@@ -42,8 +45,8 @@ export const nonTechItems = [
         id: 'non-tech-05',
         title: 'Logo Flash',
         desc: `Logo Flash is a Non-Technical Event with a combination of text,colour and
-        images,to identify the correct logo for the given option. Participant should have attend the event properly
-        Do not open any other Browser or Tab or search on Internet
+        images,to identify the correct logo for the given option.
+        Do not open any other Browser or Tab or search on Internet.
         It contains totally 20 questions and awarded 20 points,Each carry 1 point.`,
         cover: '/logo.jpeg',
         pdf: '/logo.pdf'

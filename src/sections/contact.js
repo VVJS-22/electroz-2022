@@ -149,7 +149,7 @@ const Contact = () => {
               <span>
                 <img src="/cell.svg" alt="+919442721368" />
               </span>
-              <a rel="noreferrer" target='_blank' href='tel:+919442721368' className='contact-profile-link'>V.S. Vedhika</a>
+              <a rel="noreferrer" target='_blank' href='tel:+918523997733' className='contact-profile-link'>V.S. Vedhika</a>
             </div>
             </div>
           </div>
