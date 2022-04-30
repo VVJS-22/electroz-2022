@@ -17,18 +17,18 @@ export const IntroItems = [
 
 export const IntroOthers = [
     {
-        id: 'intro-03',
-        name: 'Mr. M. Arunkumar',
-        src: '/arun.jpg',
-        position: 'Staff Co-ordinator',
-        ref: 'http://www.gcetj.edu.in/users/mr-m-arunkumar'
-    }, 
-    {
         id: 'intro-04',
         name: 'Mr. K.S. Gowthaman',
         src: '/gowtham.jpg',
         position: 'Staff Co-ordinator', 
         ref: 'http://www.gcetj.edu.in/users/gowthaman'
+    }, 
+    {
+        id: 'intro-03',
+        name: 'Mr. M. Arunkumar',
+        src: '/arun.jpg',
+        position: 'Staff Co-ordinator',
+        ref: 'http://www.gcetj.edu.in/users/mr-m-arunkumar'
     }, 
     {
         id: 'intro-05',
