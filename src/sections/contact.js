@@ -9,9 +9,9 @@ const Wrapper = styled.section`
   justify-content: center;
   margin: 2rem 0 4rem;
 
-  @media screen and (min-width: 740px) {
+  /* @media screen and (min-width: 740px) {
     height: 480px;
-  }
+  } */
   
   .contact {
     width: 95%;
