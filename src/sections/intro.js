@@ -66,10 +66,9 @@ const Intro = () => {
         ))}
       </div>
       <div className="intro-coordinators">
-        {console.log(IntroOthers)}
         <div className="intro-co-wrapper">
         {IntroOthers.map(item => (
-          <Fade>
+          <Fade key={item.id}>
           <a href={item.ref} 
           rel="noreferrer"
           className={item.id}target="_blank"><Others key={item.id} 

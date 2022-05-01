@@ -66,7 +66,7 @@ const Wrapper = styled.section`
     &-socials {
       display: flex;
       padding: 1rem;
-      padding-bottom: 2rem;
+      padding-bottom: 0;
       color: #e3e4e3;
       flex-wrap: wrap;
       justify-content: center;
@@ -74,8 +74,13 @@ const Wrapper = styled.section`
         flex-direction: column;
       }
     }
+    &-title {
+      margin-bottom: 1rem;
+      
+    }
     &-profile {
       padding: 1rem;
+      padding-left: 0;
       display: flex;
 
       &-link {
@@ -84,6 +89,9 @@ const Wrapper = styled.section`
         margin-left: 0.5rem;
       }
     }
+  }
+  #social {
+    margin-top: 1rem;
   }
 `
 
@@ -98,7 +106,37 @@ const Contact = () => {
       <div className="contact">
         <h1 className="contact-heading">Contact Us</h1>
         <div className="contact-details">
+        <div className="contact-socials">
+            <div>
+            <h3 className='contact-title'>Staff Co-ordinator</h3>
+            <div className='contact-profile'>
+              <span>
+                <img src="/cell.svg" alt="+919943080391" />
+              </span>
+              <a rel="noreferrer" target='_blank' href='tel:+919943080391' className='contact-profile-link'>Mr. M. Arunkumar</a>
+            </div>
+            <h3 id='social' className='contact-title'>Social Platforms</h3>
+            <div className='contact-profile'>
+              <span>
+                <img src="/instagram.svg" alt="Instagram" />
+              </span>
+              <a rel="noreferrer" target='_blank' href='https://instagram.com/electroz_2k22?igshid=YmMyMTA2M2Y=' className='contact-profile-link'>electroz_2k22</a>
+            </div>
+            <div className='contact-profile'>
+              <span>
+                <img src="/chrome.svg" alt="Chrome" />
+              </span>
+              <a rel="noreferrer" target='_blank' href='http://www.gcetj.edu.in/' className='contact-profile-link'>GCE Thanjavur</a>
+            </div>
+            </div>
+          </div>
           <form className="contact-form">
+          <h3 className='contact-title'
+          style={{
+            marginBottom: '2rem',
+            color: '#e3e4e3'
+          }}
+          >Mail Us</h3>
             <div className="contact-field">
               <input placeholder='Enter Your Name' className='contact-input' type="text" value={name}
               onChange={e => setName(e.target.value)}
@@ -121,18 +159,7 @@ const Contact = () => {
           </form>
           <div className="contact-socials">
             <div>
-            <div className='contact-profile'>
-              <span>
-                <img src="/instagram.svg" alt="Instagram" />
-              </span>
-              <a rel="noreferrer" target='_blank' href='https://instagram.com/electroz_2k22?igshid=YmMyMTA2M2Y=' className='contact-profile-link'>electroz_2k22</a>
-            </div>
-            <div className='contact-profile'>
-              <span>
-                <img src="/chrome.svg" alt="Chrome" />
-              </span>
-              <a rel="noreferrer" target='_blank' href='http://www.gcetj.edu.in/' className='contact-profile-link'>GCE Thanjavur</a>
-            </div>
+            <h3 className='contact-title'>Student Co-ordinators</h3>
             <div className='contact-profile'>
               <span>
                 <img src="/cell.svg" alt="+919944648268" />

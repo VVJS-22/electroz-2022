@@ -3,6 +3,7 @@ import styled from 'styled-components/macro'
 import Button from '../components/Button'
 import Header from '../components/Header'
 import Main from '../components/Main'
+import CashPrize from '../components/cashPrize'
 
 const Wrapper = styled.section`
   width: 100%;
@@ -27,6 +28,8 @@ const Hero = () => {
       <div className="hero-cover">
         <Header />
         <Main />
+        <CashPrize 
+        />
         <div className='hero-register'>
         <a href='https://forms.gle/v7Jdw7oc8qL2mQZw6'><Button>Register Now</Button></a>
         </div>
