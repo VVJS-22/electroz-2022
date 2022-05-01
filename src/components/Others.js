@@ -24,6 +24,9 @@ const Wrapper = styled.section`
         &-position {
             color: #986e1f;
         }
+        &-more {
+            color: #585858;
+        }
     }
 `
 
@@ -34,6 +37,7 @@ const Others = ({name, src, position, ...rest}) => {
         <div className="other-detail">
             <div className='other-name'>{name}</div>
             <h5 className='other-position'>{position}</h5>
+            <div className='other-more'>view more</div>
         </div>
     </Wrapper>
   )

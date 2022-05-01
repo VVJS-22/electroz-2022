@@ -23,6 +23,9 @@ const Wrapper = styled.section`
         &-name {
             color: #252525;
         }
+        &-more {
+            color: #585858;
+        }
     }
 `
 
@@ -32,6 +35,7 @@ const Profile = ({name, src, position}) => {
         <div className="profile-img" />
         <h5 className='profile-position'>{position}</h5>
         <div className='profile-name'>{name}</div>
+        <div className='profile-more'>view more</div>
     </Wrapper>
   )
 }
