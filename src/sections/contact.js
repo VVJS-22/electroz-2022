@@ -111,6 +111,12 @@ const Contact = () => {
             <h3 className='contact-title'>Staff Co-ordinator</h3>
             <div className='contact-profile'>
               <span>
+                <img src="/cell.svg" alt="+917868883057" />
+              </span>
+              <a rel="noreferrer" target='_blank' href='tel:+917868883057' className='contact-profile-link'>Mr. K.S. Gowthaman</a>
+            </div>
+            <div className='contact-profile'>
+              <span>
                 <img src="/cell.svg" alt="+919943080391" />
               </span>
               <a rel="noreferrer" target='_blank' href='tel:+919943080391' className='contact-profile-link'>Mr. M. Arunkumar</a>
