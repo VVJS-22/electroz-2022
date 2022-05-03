@@ -51,7 +51,7 @@ const Wrapper = styled.section`
 const Intro = () => {
   return (
     <Wrapper id='intro'>
-      <h1 className="intro-heading">Pillers Of Electroz</h1>
+      <h1 className="intro-heading">Pillars Of Electroz</h1>
       <div className="intro-container">
         {IntroItems.map(item => (
           <Rotate key={item.id} top left>
