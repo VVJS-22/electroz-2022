@@ -14,7 +14,12 @@ const Routes = () => {
             },
             {
                 path: '*',
-                element: <h1>404 Not Found</h1>
+                element: <h1 style={{
+                    position: 'fixed',
+                    top: '50%',
+                    left: '50%',
+                    transform: 'translate(-50%, -50%)'
+                }}>404 Not Found</h1>
             }
         ]
     },
