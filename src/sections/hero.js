@@ -31,7 +31,9 @@ const Hero = () => {
         {/* <CashPrize 
         /> */}
         <div className='hero-register'>
-        <a href='https://forms.gle/v7Jdw7oc8qL2mQZw6'><Button>Register Now</Button></a>
+        {/* <a href='https://forms.gle/v7Jdw7oc8qL2mQZw6'> */}
+          <Button>Event Finished 🙃</Button>
+          {/* </a> */}
         </div>
       </div>
     </Wrapper>
